@@ -1,0 +1,26 @@
+{
+    "sourceFile": ".vscode/launch.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1635602788933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1635602926045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,15 @@\n   \"version\": \"0.2.0\",\n   \"configurations\": [\n     {\n       \"type\": \"java\",\n+      \"name\": \"Launch StringCompareEmp\",\n+      \"request\": \"launch\",\n+      \"mainClass\": \"StringCompareEmp\",\n+      \"projectName\": \"I have no idea_db353972\"\n+    },\n+    {\n+      \"type\": \"java\",\n       \"name\": \"Launch HelloWorld\",\n       \"request\": \"launch\",\n       \"mainClass\": \"HelloWorld\",\n       \"projectName\": \"I have no idea_db353972\"\n"
+                },
+                {
+                    "date": 1635603069238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,15 @@\n   \"version\": \"0.2.0\",\n   \"configurations\": [\n     {\n       \"type\": \"java\",\n+      \"name\": \"Launch Test\",\n+      \"request\": \"launch\",\n+      \"mainClass\": \"Test\",\n+      \"projectName\": \"I have no idea_db353972\"\n+    },\n+    {\n+      \"type\": \"java\",\n       \"name\": \"Launch StringCompareEmp\",\n       \"request\": \"launch\",\n       \"mainClass\": \"StringCompareEmp\",\n       \"projectName\": \"I have no idea_db353972\"\n"
+                }
+            ],
+            "date": 1635602788933,
+            "name": "Commit-0",
+            "content": "{\n  \"version\": \"0.2.0\",\n  \"configurations\": [\n    {\n      \"type\": \"java\",\n      \"name\": \"Launch HelloWorld\",\n      \"request\": \"launch\",\n      \"mainClass\": \"HelloWorld\",\n      \"projectName\": \"I have no idea_db353972\"\n    },\n    {\n      \"name\": \"C/C++ Runner: Debug Session\",\n      \"type\": \"cppdbg\",\n      \"request\": \"launch\",\n      \"args\": [],\n      \"stopAtEntry\": false,\n      \"cwd\": \"c:\\\\Users\\\\nghia\\\\OneDrive\\\\Máy tính\\\\I have no idea\",\n      \"environment\": [],\n      \"program\": \"c:\\\\Users\\\\nghia\\\\OneDrive\\\\Máy tính\\\\I have no idea\\\\build\\\\Debug\\\\outDebug\",\n      \"internalConsoleOptions\": \"openOnSessionStart\",\n      \"MIMode\": \"gdb\",\n      \"miDebuggerPath\": \"gdb\",\n      \"externalConsole\": false,\n      \"setupCommands\": [\n        {\n          \"description\": \"Enable pretty-printing for gdb\",\n          \"text\": \"-enable-pretty-printing\",\n          \"ignoreFailures\": true\n        }\n      ]\n    }\n  ]\n}"
+        }
+    ]
+}

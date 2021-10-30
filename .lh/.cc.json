@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".cc",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1635602246650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1635602246650,
+            "name": "Commit-0",
+            "content": "#include<iostream>\r\n\r\nusing namespace std;\r\n\r\nint main() {\r\n\tcout << \"Xin chao!\";\r\n\treturn 0;\r\n}"
+        }
+    ]
+}
