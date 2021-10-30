@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1635602789229,
@@ -16,6 +16,10 @@
                 {
                     "date": 1635603069469,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,20 @@\n-public class StringCompareEmp{\r\n-    public static void main(String args[]){\r\n-       String str = \"Hello World\";\r\n-       String anotherString = \"hello world\";\r\n-       Object objStr = str;\r\n- \r\n-       System.out.println( str.compareTo(anotherString) );\r\n-       System.out.println( str.compareToIgnoreCase(anotherString) );\r\n-       System.out.println( str.compareTo(objStr.toString()));\r\n-    }\r\n- }\n\\ No newline at end of file\n+\r\n+\r\n+// vi du phan biet hai lenh print va println\r\n+class Test {\r\n+\tpublic static void main(String args[]) {\r\n+\r\n+\t\t// lenh print\r\n+\t\tSystem.out.print(\"VietJack \");\r\n+\t\tSystem.out.print(\"chuc cac ban \");\r\n+\t\tSystem.out.print(\"hoc tot!!!\");\r\n+\t\tSystem.out.print(\"\\n---------------\\n\");\r\n+\r\n+\t\t// lenh println\r\n+\t\tSystem.out.println(\"VietJack \");\r\n+\t\tSystem.out.println(\"chuc cac ban \");\r\n+\t\tSystem.out.println(\"hoc tot!!!\");\r\n+\r\n+\t}\r\n+\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1635603161317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+//Im learning java go brr\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1635602789229,
